@@ -55,21 +55,56 @@ export function lnkoTeszt2()
             b: 15,
             vart: 3,
             tesztesetNev: 
-            "3. Teszteset - ",
+            "3. Teszteset - A és B páratlanok, többszörösei egymásnak",
+        },
+        {
+            a: 6,
+            b: 3,
+            vart: 3,
+            tesztesetNev: 
+            "4. Teszteset - A és B Többszörösei egymásnak",
         },
         {
             a: 7,
             b: 10,
             vart: 1,
             tesztesetNev: 
-            "4. Teszteset - ",
+            "5. Teszteset - ",
         },
         {
             a: 15,
             b: 8,
             vart: 1,
             tesztesetNev: 
-            "5. Teszteset - ",
+            "6. Teszteset - A és B relatív prímek",
+        },
+        {
+            a: 5,
+            b: 5,
+            vart: 1,
+            tesztesetNev: 
+            "7. Teszteset - A és B ugyanolyan prímek",
+        },
+        {
+            a: 5,
+            b: -5,
+            vart: "Nem lehet az eredmény negatív!",
+            tesztesetNev: 
+            "8. Teszteset - B negatív szám ",
+        },
+        {
+            a: -5,
+            b: 5,
+            vart: "Nem lehet az eredmény negatív!",
+            tesztesetNev: 
+            "9. Teszteset - A negatív szám",
+        },
+        {
+            a: 0,
+            b: 0,
+            vart: "Nem lehet nullával osztani.",
+            tesztesetNev: 
+            "10. Teszteset - Mindkettő negatív szám",
         },
     ];
 

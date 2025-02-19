@@ -6,6 +6,16 @@ lnkoTeszt2();
 
 export function lnko(a, b)
 {
+    while (a < 0 && b < 0)
+    {
+        return "Nem lehet az eredmény negatív!"
+    }
+
+    while (a == 0 && b == 0)
+    {
+        return "Nem lehet nullával osztani."
+    }
+
     while(a != b)
     {
         if (a > b)
